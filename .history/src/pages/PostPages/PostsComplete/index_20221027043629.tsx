@@ -1,0 +1,15 @@
+import { PostContentContainer } from "./styles";
+import 
+
+interface IPostComplete {
+  content: string;
+}
+
+export function PostComplete({content}: IPostComplete) {
+  return (
+    <PostContentContainer>
+      <ReactMarkdown />
+    {content}
+    </PostContentContainer>
+  );
+}

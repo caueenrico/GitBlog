@@ -1,0 +1,12 @@
+import { ContainerInput } from "./styles";
+
+export function ContentSearch() {
+  return (
+    <ContainerInput>
+      <label htmlFor="">
+        <input type="text" placeholder="Search" />
+      </label>
+      <input type="text" placeholder=""/>
+    </ContainerInput>
+  );
+}
