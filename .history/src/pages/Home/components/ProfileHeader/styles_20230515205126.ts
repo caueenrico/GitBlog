@@ -95,9 +95,6 @@ export const InformationProfile = styled.div`
 
 
     ul {
-      display: flex;
-      align-items: center;
-      justify-content: center;
       margin-top: 16px;
       gap: 16px;
       li {

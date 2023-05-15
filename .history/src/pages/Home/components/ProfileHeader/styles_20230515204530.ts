@@ -23,11 +23,8 @@ export const ProfileContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: -88px;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 10px
-    
+    margin-top: -;
+    margin: 20px
   }
 `;
 
@@ -78,32 +75,6 @@ export const InformationProfile = styled.div`
       font-size: 16px;
       color: ${(props) => props.theme["subtitle"]};
       
-    }
-  }
-
-  @media (max-width: 768px) {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    text-align: center;
-    header {
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-    }
-
-
-    ul {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-top: 16px;
-      gap: 16px;
-      li {
-        gap: 4px;
-        font-size: 14px;
-      }
     }
   }
  

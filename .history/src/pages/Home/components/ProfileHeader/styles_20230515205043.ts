@@ -85,7 +85,6 @@ export const InformationProfile = styled.div`
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
-    text-align: center;
     header {
       flex-direction: column;
       align-items: center;
@@ -95,16 +94,11 @@ export const InformationProfile = styled.div`
 
 
     ul {
-      display: flex;
-      align-items: center;
-      justify-content: center;
       margin-top: 16px;
       gap: 16px;
       li {
         gap: 4px;
-        font-size: 14px;
-      }
-    }
+        
   }
  
 `;
