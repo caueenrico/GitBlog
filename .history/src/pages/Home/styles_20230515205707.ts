@@ -21,8 +21,6 @@ export const Header = styled.header`
 export const HomeContainer = styled.div`
   max-width: 54rem;
   margin: 0 auto;
-
-  padding: 0 10px;
 `
 
 export const ProfileContainer = styled.div`
@@ -69,8 +67,6 @@ export const PostsHomeContainer = styled.div`
   margin-bottom: 32px;
 
   @media (max-width: 768px) {
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-
-  }
+    
 
 `

@@ -22,7 +22,7 @@ export const HomeContainer = styled.div`
   max-width: 54rem;
   margin: 0 auto;
 
-  padding: 0 10px;
+  
 `
 
 export const ProfileContainer = styled.div`

@@ -22,7 +22,6 @@ export const ContainerInput = styled.form`
       color: ${(props) => props.theme["span"]};
       font-size: 14px;
     }
-    
   }
 
   input{
@@ -38,5 +37,5 @@ export const ContainerInput = styled.form`
     }
   }
 
-
+  
 `
